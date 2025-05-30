@@ -66,13 +66,15 @@ To see what the sensor is detecting, open the Serial Monitor:
    ls /dev/tty.usbmodem*
 
 3. Then:
-screen /dev/tty.usbmodemXXXX 115200
+    ```bash
+    screen /dev/tty.usbmodemXXXX 115200
 (replace XXXX with your device number)
 
 4. You'll see logs like: 
-Proximity: 103
-Object approaching...
-Tapped: ENTER pressed
+    ```bash
+    Proximity: 103
+    Object approaching...
+    Tapped: ENTER pressed
 
 To exit:
 Ctrl+A then Ctrl+\, then press Y
