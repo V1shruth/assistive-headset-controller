@@ -78,3 +78,11 @@ To see what the sensor is detecting, open the Serial Monitor:
 
 To exit:
 Ctrl+A then Ctrl+\, then press Y
+
+▶️ On Windows
+Download Mu Editor
+
+Select "CircuitPython" mode
+
+Click Serial — you’ll see the same log output
+
